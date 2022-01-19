@@ -18,7 +18,7 @@
         </activity>
         <receiver android:name=".Broadcast_Receiver.MyReceiver">
             <intent-filter>
-<!--                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>-->
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
                 <action android:name="android.intent.action.ACTION_TIMEZONE_CHANGED"/>
             </intent-filter>
         </receiver>
